@@ -1,0 +1,16 @@
+// 定义变量
+$background-color: #333333;
+$text-color: #ffffff;
+$primary-color: #42b983;
+$secondary-color: #ff5722;
+
+// 使用变量
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+button {
+  background-color: $primary-color;
+  color: $background-color; // 这里你可能想要用$text-color来确保按钮文字的可读性
+}
