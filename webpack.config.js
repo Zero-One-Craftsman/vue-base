@@ -1,3 +1,11 @@
+/*
+ * @Author: TheEverlyn oncwnuPHraQE2iCPc4byZrcyKQ8s@git.weixin.qq.com
+ * @Date: 2024-12-26 15:02:06
+ * @LastEditors: TheEverlyn oncwnuPHraQE2iCPc4byZrcyKQ8s@git.weixin.qq.com
+ * @LastEditTime: 2024-12-29 16:44:26
+ * @FilePath: \vue-base\webpack.config.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
@@ -5,6 +13,7 @@ const { VueLoaderPlugin } = require('vue-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/main.js', // 入口文件路径
+  mode:'development',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // 设置别名

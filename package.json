@@ -1,19 +1,21 @@
 {
-  "name": "vue-init",
+  "name": "vue-base",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
     "vue": "^3.5.13",
     "vue-loader": "^17.4.2",
     "vue-style-loader": "^4.1.3",
