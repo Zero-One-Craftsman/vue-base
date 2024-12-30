@@ -2,7 +2,7 @@
  * @Author: TheEverlyn oncwnuPHraQE2iCPc4byZrcyKQ8s@git.weixin.qq.com
  * @Date: 2024-12-26 15:02:06
  * @LastEditors: TheEverlyn oncwnuPHraQE2iCPc4byZrcyKQ8s@git.weixin.qq.com
- * @LastEditTime: 2024-12-29 16:44:26
+ * @LastEditTime: 2024-12-30 13:14:51
  * @FilePath: \vue-base\webpack.config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -57,7 +57,8 @@ module.exports = {
             presets: ['@babel/preset-env'] // 转换的目标环境
           }
         }
-      }
+      },
+      // #INSERT RULE HERE
     ]
   },
   plugins: [
